@@ -1,6 +1,6 @@
 from keras.models import load_model
-from tensorflow.keras.utils import to_categorical
-from simple_multi_unet_model import multi_unet_model, jacard_coef
+from keras import to_categorical
+from Enchanced_unet_model import multi_unet_model, jacard_coef
 from sklearn.model_selection import train_test_split
 import segmentation_models as sm
 import numpy as np
